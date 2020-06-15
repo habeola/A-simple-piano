@@ -39,10 +39,15 @@ kbd {
     background-color: black;  
 }
 
-
-
 .sound {
     font-size: 10px;
     text-transform: uppercase;
     color: yellow;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
 }
